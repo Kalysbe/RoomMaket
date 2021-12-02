@@ -1,0 +1,409 @@
+body {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-style:normal;
+    margin: 0px;
+}
+
+/* Menu */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.shop {
+    width: 15%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+hr {
+    margin: 5vh 0;
+}
+
+/* main-image */
+
+.main-image {
+    text-align: center;
+}
+
+/* main-text */
+
+.main-text {
+    display: flex;
+    justify-content: center;
+}
+
+.container-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.paragraph1 {
+    width: 30%;
+    font-size: 48px;
+    line-height: 58px;
+    color:#1A1A1A;
+}
+
+.paragraph2 {
+    width: 50%;
+    font-size: 24px;
+    line-height: 40px;
+    color:#AAA;
+}
+
+/* room */
+
+.photo-room {
+    text-align: center;
+}
+
+.photo-room div {
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+}
+
+.photo-room p {
+    margin: 0px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1A1A;
+}
+
+.room-heading {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.room-heading h1 {
+    font-size: 48px;
+    line-height: 48px;
+    color:#1A1A1A;
+}
+
+.room-heading p {
+    font-size: 24px;
+    line-height: 36px;
+    color:  #4A4A4A;
+}
+
+.brand__icons {
+    display: flex;
+    justify-content: center;
+    margin: 15vh 0;
+    text-align: center;
+}
+
+.brand__icons td {
+    padding: 30px;
+}
+
+.room-image {
+    text-align: center;
+}
+
+/* advantage */
+
+.advantage {
+    margin-top: 10vh;
+  
+}
+
+.advantage-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.advantage-heading div {
+    width: 70%;
+}
+
+.advantage-heading h2 {
+    color:#1A1A1A;
+    font-size: 48px;
+    line-height: 56.25px;
+    margin: 0px;
+}
+
+.advantage-heading a {
+    color: #46856E;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+
+.advantage-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.advantage-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantage-container div {
+    width: 25%;
+}
+
+.advantage-container img {
+    margin-left: 10%;
+}
+
+.advantage-container h3 {
+    color:#1A1A1A;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.advantage-container p {
+    color:#AAA;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.advantage-image {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+/* mixed */
+
+.mixed-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.mixed-head {
+    width: 56%;
+}
+
+.first-p {
+    color:#AAA;
+}
+
+.second-p {
+    color:#000;
+}
+
+.mixed-head p {
+    font-size: 46px;
+    line-height: 52px;
+}
+
+.mixed-content h3 {
+  font-size: 32px;
+  line-height: 36px;
+  color:#1A1A1A;
+}
+
+.mix-content p {
+    font-size: 16px;
+    line-height: 24px;
+    color:#AAA;
+}
+
+.mix-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 5vh 0;
+}
+
+.mix-content .right {
+    align-self:center;
+    width: 30%;
+}
+
+.left-2 {
+    width: 30%;
+    align-self:center;
+}
+
+.mixed-image {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+/* trial */
+.trial {
+    display: flex;
+    justify-content: center;
+}
+
+.trial-container {
+    background: #F2F2F2;
+    width: 80%;
+    height: 60vh;
+    text-align: center;
+}
+
+.trial-container h1 {
+    font-size: 46px;
+    line-height: 50.6px;
+    text-align: center;
+    color:#000;
+}
+
+.trial-image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trial-image p {
+    color:#1A1A1A;
+    font-size: 12px;
+    line-height: 14.06px;
+    letter-spacing: 0.75px;
+    text-align: center;
+}
+
+.trial-image img {
+    width: 90px;
+    height: 80px;
+}
+
+.trial-container button {
+    background: #46856E;
+    border-radius: 2px;
+    color:#FFFFFF;
+    padding: 3px 24px;
+    border:none;
+    font-size: 12px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin-top: 5vh;
+}
+
+.trial-container a {
+    color:#AAAAAA;
+    font-size: 12px;
+    line-height: 14.06px;
+    display: block;
+    margin:10px 0;
+}
+/* footer */
+
+footer {
+    background: #2B2B2B;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.footer p {
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #FFF;
+}
+
+.footer a {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-decoration: none;
+    color:#FFFFFF;
+    display: block;
+    margin: 2px;
+}
+
+.footer div {
+    width: 14vh;
+}
+
+.footer-follow a {
+    display: inline;
+}
+
+
+.footer-join {
+ flex-grow: 0.3;
+}
+
+.footer-join input {
+    margin: 20px 0;
+}
+
+
+.footer-join a {
+    font-size: 14px;
+    line-height: 60px;
+    letter-spacing: 2.299999952316284px;
+    text-align: right;
+}
+
+.footer-join input {
+    font-size: 30px;
+    border:1px solid #FFF;
+    border-radius: 1px;
+    background: #2B2B2B;
+    color:#FFF;
+    height: 60px;
+}
+
+.checkbox-paragraph {
+    color: #FFFFFF80;
+    font-size: 11px;
+    line-height: 12,89px;
+    letter-spacing: 2.4px;
+}   
+
+.checkbox-paragraph input {
+    width: 40px;
+    height: 40px;
+}
+
+.return-main {
+   height: 100%;
+   display: flex;
+   align-items: flex-end;
+}
+
+.return-main a{
+    writing-mode: vertical-rl;
+    rotate: (90);
+    color: #FFF;
+}
+
